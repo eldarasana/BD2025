@@ -12,8 +12,8 @@ export default function Home() {
           className="printstream" 
         />
       </div>
-      <h1>Welcome to PrintStream - Game Management App</h1>
-      <p>Effortlessly manage your users and games with our intuitive interface.</p>
+      <h1>Welcome to PrintStream</h1>
+      <p>Explore the world of games and catch the latest news in gaming industry!</p>
 
       <footer className="footer">
   <p>&copy; 2025 PrintStream. All rights reserved.</p>

@@ -11,8 +11,8 @@
   
   .news-list {
     display: flex;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 450px;
+    margin-right: 450px;
     flex-direction: column;
     gap: 50px;
     margin-top: 20px;

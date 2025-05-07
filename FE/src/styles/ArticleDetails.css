@@ -1,11 +1,13 @@
 .ArticleDetails {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 300px auto;
     padding: 20px;
-    background-color: #a03030;
-    border-radius: 10px;
+    background-color: #2f8da5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #03a9f4, #f441a5);
+    border-image-slice: 1;
   }
   
   .article-title {

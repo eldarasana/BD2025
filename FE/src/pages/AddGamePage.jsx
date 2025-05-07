@@ -5,7 +5,7 @@ export default function AddGame() {
   const [user_obj_state, set_user_obj_state] = useState({
     title: '',
     genre: '',
-    releaseDate: 1999,
+    releaseDate: 2010,
   });
 
   return (
