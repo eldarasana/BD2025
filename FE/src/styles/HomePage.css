@@ -1,0 +1,76 @@
+.HomeHeader{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 75%;    
+    padding:20px 50px;
+    top:100px;
+    left: 200px;
+    height: 700px;
+    border-radius: 20px;
+    gap: 20px;
+
+    .home-content {
+        border: 2px solid #ffffff; 
+        border-radius: 10px; 
+        background: linear-gradient(90deg, #03a9f4, #f441a5);
+        padding: 10px; 
+        margin: 10px auto;
+        text-align: center; 
+      }
+
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.HomeHeader h1{
+    padding:0px;
+    margin:0px;
+}
+
+
+.display-user-header{
+    position:absolute;
+    padding:5px 9px;
+    top:107px;
+    left:232px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+}
+
+/* Footer Styling */
+.footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer ul li {
+    display: inline;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .footer ul li a:hover {
+    color: #00bcd4;
+  }

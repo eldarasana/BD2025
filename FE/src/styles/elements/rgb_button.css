@@ -1,0 +1,55 @@
+.rgb-container a {
+  display:flex;
+  margin:0px;
+  font-size: 1.1em;
+  padding: 20px 50px;
+  /* border-radius: 0.5em; */
+  border: none;
+  border-radius: 0.5em;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+}
+
+.rgb-container button{
+margin:0px;
+font-size: 1em;
+padding: 10px 12px;
+/* border-radius: 0.5em; */
+border: none;
+background-color: #000;
+color: #fff;
+cursor: pointer;
+box-shadow: 2px 2px 3px #000000b4;
+
+}
+
+.rgb-container {
+  padding: 3px 3px;
+  border-radius: 0.5em;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  /* border-radius: 0.5em; */
+  transition: all 0.4s ease;
+}
+
+.rgb-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.rgb-container:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.7em);
+}
+.rgb-container:active::before {
+  filter: blur(0.2em);
+}

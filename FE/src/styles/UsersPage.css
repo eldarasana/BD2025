@@ -1,0 +1,30 @@
+.users-page-container{
+    margin-top:100px;
+    margin-left: 0px;
+    padding: 20px;  
+    text-align: center;
+    display: grid;
+}
+
+.users-page-container ul{
+    flex:1;
+}
+
+.users-page-container li{
+    margin: 5px;
+}
+.users-page-container .h1-wrapper{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.users-page-container .h1-wrapper h1{
+
+
+    padding:10px 40px;
+    border-radius: 9px;
+    background: rgb(0, 0, 0);
+    
+}

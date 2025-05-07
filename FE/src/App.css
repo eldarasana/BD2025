@@ -1,0 +1,60 @@
+body {
+    /* background: linear-gradient(-45deg, #88227a, #5a89c7, #7b367e, #9faec9); */
+    background: linear-gradient(-45deg, #4595e0, #be98a8, #cf86ae, #ca2887);
+    background-size: 2000% 2000%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+:root {
+    --button-color: rgb(58, 177, 177);
+    --button-secondary-color: rgb(58, 177, 98);
+    --main-background: rgb(0, 0, 0);
+}
+
+* {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: rgba(255,255,255,0.87)
+}
+
+a {
+    text-decoration:none;
+}
+ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+
+
+input {
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin: 10px;
+}
+
+
+.NavLinks{
+    margin-top:25px;
+    margin-bottom:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+}

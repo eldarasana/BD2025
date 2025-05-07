@@ -1,0 +1,16 @@
+.display-user-header{
+    position:absolute;
+    padding:5px 9px;
+    top:150px;
+    left:280px;
+    border-radius: 9px;
+    background: #000000;
+}
+
+
+.display-user-component-wrapper{
+    position:absolute;
+    top:262px;
+    left:234px;
+
+}

@@ -1,0 +1,121 @@
+.NewsPage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .NewsPage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+    color: #000000;
+  }
+  
+  .news-list {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .news-item {
+    background-color: rgb(154, 155, 211);
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #03a9f4, #f441a5);
+    border-image-slice: 1;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .news-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .news-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .news-item p strong {
+    color: #000000;
+  }
+  
+  .news-item:hover {
+    border-color: #007bff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .create-article-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .create-article-form input,
+  .create-article-form textarea {
+    padding: 15px;
+    font-size: 16px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 1px solid #5bc8cf;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, #03a9f4, #f441a5);
+    background-color: #242121;
+    border-image-slice: 0;
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .create-article-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .create-article-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .news-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .news-item button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .news-item button:last-child:hover {
+    background-color: #c82333;
+  }
+
+  .news-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .news-item button:hover {
+    background-color: #0056b3;
+  }

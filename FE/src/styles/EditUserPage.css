@@ -1,0 +1,50 @@
+.edit-user-header {
+    position: absolute;
+    padding: 5px 9px;
+    top: 107px;
+    left: 232px;
+    border-radius: 9px;
+    background: black
+}
+
+.card_wrapper{
+    position:absolute;
+    top:262px;
+    left:150px;
+}
+
+
+
+.form-wrapper{
+    position: absolute;
+    top:358px;
+    left:515px;
+}
+
+.age_part_wrapper{
+    padding-left:10px;
+    margin-top:10px;
+}
+
+
+.plus-minus-wrapper{
+    display:flex;
+}
+.plus-minus-wrapper .rgb-container-wrapper{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.span-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.num_change_label{
+    display:flex;
+    margin:8px 8px;
+}

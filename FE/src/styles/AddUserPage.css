@@ -1,0 +1,28 @@
+.h1-wrapper-wrapper .h1-wrapper{
+    position: absolute;
+    padding: 5px 9px;
+    top: 250px;
+    left: 542px;
+    border-radius: 9px;
+    background:#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-user-form-wrapper{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    border :#000000 solid 4px;
+    padding: 40px 50px;
+    border-radius: 9px;
+}
+
+
+.add-user-icon-wrapper{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
